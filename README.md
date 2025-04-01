@@ -22,4 +22,5 @@ Aplicação web para **gestão financeira de agências bancárias**, desenvolvid
 | **PDF**       | ReportLab 4.0                            |  
 
 ## 📊 Estrutura do Banco (SQL Puro)
+Scripts da Criação do Banco: <https://docs.google.com/document/d/1QLY-iWZFrNeMugdcPNiqQueSitTc8nnwgBIgiBbnovk/edit?usp=sharing>
 
