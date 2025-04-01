@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Clientes por Bairro</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <a href="/" class="back-btn">← Voltar</a>
+        <h1>Clientes por Bairro e Cidade</h1>
+        
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>Cidade</th>
+                    <th>Bairro</th>
+                    <th>Total de Clientes</th>
+                    <th>Nomes dos Clientes</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for item in dados %}
+                <tr>
+                    <td>{{ item[0] }}</td>
+                    <td>{{ item[1] }}</td>
+                    <td>{{ item[2] }}</td>
+                    <td>{{ item[3] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
