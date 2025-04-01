@@ -13,7 +13,7 @@ Aplicação web para **gestão financeira de agências bancárias**, desenvolvid
 | `Stênio`         | Back-end & Banco de Dados|  
 | `Lucas Willian`  | Relatórios PDF           |  
 
-## 🛠 Stack Tecnológica**  
+## 🛠 Stack Tecnológica  
 | **Área**       | **Tecnologias**                          |  
 |---------------|------------------------------------------|  
 | **Front-end** | HTML5, CSS3, Chart.js                    |  
