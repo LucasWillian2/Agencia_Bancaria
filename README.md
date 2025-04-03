@@ -1,12 +1,26 @@
 # Sistema Bancário - Gestão de Agências
 
-## 📌 Descrição do Projeto  
-Aplicação web para **gestão financeira de agências bancárias**, desenvolvida em **Python + Flask**, com: 
-✔ Visualização de todos clientes nas agências do brooklyn
-✔ Visualização do total de todas as empresas
-✔ Visualização de clientes por bairro  
-✔ Relatórios PDF de empréstimos  
-✔ CRUD completo de agências, clientes e transações  
+## 📌 Descrição do Projeto
+
+Aplicação web para **gestão financeira de agências bancárias**, desenvolvida em **Python + Flask**, com as seguintes funcionalidades:  
+
+✔ **Clientes em Brooklyn**  
+&nbsp;&nbsp;&nbsp;&nbsp;∘ Visualização de todos clientes nas agências do Brooklyn/Nova Iorque  
+
+✔ **Total de Empréstimos**  
+&nbsp;&nbsp;&nbsp;&nbsp;∘ Consulta do valor total de todos os empréstimos  
+
+✔ **Clientes por Bairro**  
+&nbsp;&nbsp;&nbsp;&nbsp;∘ Listagem organizada por bairro e cidade  
+
+✔ **Relatórios PDF**  
+&nbsp;&nbsp;&nbsp;&nbsp;∘ Geração de relatórios mensais de empréstimos em PDF  
+
+✔ **Operações CRUD**  
+&nbsp;&nbsp;&nbsp;&nbsp;∘ Gestão completa de:  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Agências bancárias  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Clientes  
+&nbsp;
 
 ## 👨‍💻 Equipe 
 | **Membro**       | **Função**               |  
