@@ -28,7 +28,7 @@ Aplicação web para **gestão financeira de agências bancárias**, desenvolvid
 | `Lucas Willian`  | Back-end & Banco de Dados|  
 | `Stênio`         | Back-end & Banco de Dados|  
 | `Lucas Willian`  | Relatórios PDF           | 
-| `Lucas e Stênio` | Modelo MER               | 
+| `Lucas e Stênio` | Modelo MERE              | 
 
 ## 🛠 Stack Tecnológica  
 | **Área**       | **Tecnologias**                          |  
