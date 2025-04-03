@@ -24,3 +24,5 @@ Aplicação web para **gestão financeira de agências bancárias**, desenvolvid
 ## 📊 Estrutura do Banco (SQL Puro)
 Scripts da Criação do Banco: <https://docs.google.com/document/d/1QLY-iWZFrNeMugdcPNiqQueSitTc8nnwgBIgiBbnovk/edit?usp=sharing>
 
+MERE: <https://drive.google.com/file/d/1mXwXnFJTysyM5i9VZTiGUbRv4STGaq7k/view>
+
