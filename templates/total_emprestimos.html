@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Total de Empréstimos</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <a href="/" class="back-btn">← Voltar</a>
+        <h1>Total de Empréstimos</h1>
+        
+        <div class="result-box">
+            <p>O valor total de todos os empréstimos no banco é:</p>
+            <p class="total-value">R$ {{ "%.2f"|format(total) }}</p>
+        </div>
+    </div>
+</body>
+</html>

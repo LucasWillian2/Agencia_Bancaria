@@ -164,5 +164,42 @@ def relatorio_emprestimos():
         mimetype='application/pdf'
     )
 
+# Rota para mostrar o total de empréstimos
+@app.route('/total-emprestimos')
+def total_emprestimos():
+    conn = get_db_connection()
+    cur = conn.cursor()
+    
+    cur.execute("SELECT SUM(valor) AS total_emprestimos FROM emprestimo;")
+    total = cur.fetchone()[0]
+    conn.close()
+    
+    return render_template('total_emprestimos.html', total=total)
+
+# Rota para mostrar clientes com conta em todas agências do Brooklyn
+@app.route('/clientes-brooklyn')
+def clientes_brooklyn():
+    conn = get_db_connection()
+    cur = conn.cursor()
+    
+    cur.execute("""
+    SELECT DISTINCT d.nome_cliente
+    FROM depositante d
+    JOIN conta c ON d.num_conta = c.num_conta
+    JOIN agencia a ON c.nome_agencia = a.nome_agencia
+    WHERE a.nome_agencia = 'Agência Brooklyn' AND a.cidade_agencia = 'Nova Iorque'
+    GROUP BY d.nome_cliente
+    HAVING COUNT(DISTINCT c.nome_agencia) = (
+        SELECT COUNT(*) 
+        FROM agencia 
+        WHERE nome_agencia = 'Agência Brooklyn' AND cidade_agencia = 'Nova Iorque'
+    );
+    """)
+    
+    clientes = cur.fetchall()
+    conn.close()
+    
+    return render_template('clientes_brooklyn.html', clientes=clientes)
+
 if __name__ == '__main__':
     app.run(debug=True)
