@@ -1,7 +1,9 @@
 # Sistema Bancário - Gestão de Agências
 
 ## 📌 Descrição do Projeto  
-Aplicação web para **gestão financeira de agências bancárias**, desenvolvida em **Python + Flask**, com:  
+Aplicação web para **gestão financeira de agências bancárias**, desenvolvida em **Python + Flask**, com: 
+✔ Visualização de todos clientes nas agências do brooklyn
+✔ Visualização do total de todas as empresas
 ✔ Visualização de clientes por bairro  
 ✔ Relatórios PDF de empréstimos  
 ✔ CRUD completo de agências, clientes e transações  
@@ -11,7 +13,8 @@ Aplicação web para **gestão financeira de agências bancárias**, desenvolvid
 |------------------|--------------------------|  
 | `Lucas Willian`  | Back-end & Banco de Dados|  
 | `Stênio`         | Back-end & Banco de Dados|  
-| `Lucas Willian`  | Relatórios PDF           |  
+| `Lucas Willian`  | Relatórios PDF           | 
+| `Lucas e Stênio` | Modelo MER               | 
 
 ## 🛠 Stack Tecnológica  
 | **Área**       | **Tecnologias**                          |  
